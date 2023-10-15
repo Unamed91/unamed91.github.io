@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>GAMES Production</title>
+    <link rel="shortcut icon" href="Media/Logo/Logo.png" />
+    <link rel="stylesheet" href="cssfile.css" />
+    <link rel="stylesheet" href="survey.css" />
+  </head>
+
+  <body>
+    <div class="top" style="width: 70px; background-color: #ffffff00;">
+    <a href="index.html#section4">
+      <img
+        src="Media/Logo/Logo.png"
+        alt="Picture of the G.A.M.E.S.'s logo"
+        style="width:70px;"
+    /></a></div>
+    <h1>Survey</h1>
+
+    <a style="margin: 15%; font-size: 25px;">This survey allow us to better improve our services.</a>
+    <form action="\qcm.php" method="post">
+      <div>
+        <label for="fname" class="survey">First Name:</label>
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="Enter your first name"
+          class="survey"
+        />
+
+        <label for="lname" class="survey">Last Name:</label>
+        <input
+          type="text"
+          id="lname"
+          name="lname"
+          placeholder="Enter your last name"
+          class="survey"
+        />
+      </div>
+
+      <div>
+        <label for="gender" class="survey">Gender</label>
+        <select id="gender" class="survey">
+          <option selected value="man">Man</option>
+          <option value="woman">Woman</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="age" class="survey">Age:</label>
+        <input
+          id="age"
+          type="number"
+          class="survey"
+          min="0"
+          max="120"
+          step="1"
+          value="18"
+        />
+      </div>
+
+      <div>
+        <textarea
+          name="paragraphe"
+          id="paragraphe"
+          cols="50"
+          rows="10"
+          placeholder="Enter what you want to tell us"
+          class="survey p"
+        ></textarea>
+      </div>
+
+      <div>
+        <input type="submit" value="Submit" class="survey" />
+        <input type="reset" value="Reset" class="survey" />
+      </div>
+    </form>
+    <a
+      href="index.html#section4"
+      class="survey"
+      style="color: blue"
+      style="margin-bottom: 10px"
+      >Home</a
+    >
+    <br><br><br><br><br><br>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+.survey {
+    color: #000000;
+    font-family: MUSTICA-SemiBold;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 14%;
+    margin-right: 14%;
+    font-size: 30px;
+    border-radius: 18px;
+    border-color: rgb(155, 155, 155);
+    text-align: left;
+}

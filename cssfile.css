@@ -1,0 +1,206 @@
+
+  @font-face {
+    font-family: LOUIS-GEORGE-CAFE;
+    src: url(Fonts/Louis-George-Cafe.woff);
+  }
+  @font-face {
+    font-family: MONT-Heavy;
+    src: url(Fonts/Mont-HeavyDEMO.woff);
+  }
+  @font-face {
+    font-family: MUSTICA-SemiBold;
+    src: url(Fonts/MusticaPro-SemiBold.woff);
+  }
+  html{
+  scroll-behavior: smooth;
+  }
+  body{
+    margin: 0%;
+  }
+  footer{
+    background-color: rgb(170, 170, 170);
+    color:white;
+    margin-top: 0%;
+    margin-bottom: 0%; 
+  }
+  .top{
+    position: fixed;
+    background-color: rgb(211,211,211);
+    height: 70px;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+  }
+  .logo{
+    width: 4%;
+    margin-top: 10px;
+    margin-left: 2%;
+  }
+  .inline{
+    display: inline-block;
+    text-align: center;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+  }
+  h1{
+    color: #000000;
+    font-family: MONT-Heavy;
+    margin-top: 13%;
+    margin-left: 5%;
+    margin-bottom: 12%;
+    font-size: 120px;
+    text-align: left;
+  }
+  h2{
+    color: #000000;
+    font-family: MUSTICA-SemiBold;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 12%;
+    margin-right: 12%;
+    font-size: 55px;
+    text-align: left;
+  }
+  h3{
+    color: #000000;
+    font-family: MUSTICA-SemiBold;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: 14%;
+    margin-right: 14%;
+    font-size: 45px;
+    text-align: left;
+  }
+  h4{
+    color: #000000;
+    font-family: MUSTICA-SemiBold;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: 14%;
+    margin-right: 14%;
+    font-size: 40px;
+    text-align: left;
+  }
+  h5{    
+    color: #000000;
+    font-family: MUSTICA-SemiBold;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: 14%;
+    margin-right: 14%;
+    font-size: 35px;
+    text-align: left;
+  }
+  h6{    
+    color: #000000;
+    font-family: MUSTICA-SemiBold;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: 14%;
+    margin-right: 14%;
+    font-size: 30px;
+    text-align: left;
+  }
+  p{
+    color: #000000;
+    font-family: LOUIS-GEORGE-CAFE;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 30px;
+    text-align: left;
+    text-decoration: none;
+  }
+  .h1{
+    color: #020078;
+    font-family: MUSTICA-SemiBold;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-size: 120px;
+    text-align: center;
+  }
+  .h2{
+    color: #000000;
+    font-family: MUSTICA-SemiBold;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 12%;
+    margin-right: 12%;
+    font-size: 55px;
+    text-align: left;
+  }
+  .h3{
+    color: #000000;
+    font-family: MUSTICA-SemiBold;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: 14%;
+    margin-right: 14%;
+    font-size: 45px;
+    text-align: left;
+  }
+  .h4{
+    color: #000000;
+    font-family: MUSTICA-SemiBold;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: 14%;
+    margin-right: 14%;
+    font-size: 40px;
+    text-align: left;
+  }
+  .h5{    
+    color: #000000;
+    font-family: MUSTICA-SemiBold;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: 14%;
+    margin-right: 14%;
+    font-size: 35px;
+    text-align: left;
+  }
+  .h6{
+    color: #000000;
+    font-family: MUSTICA-SemiBold;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: 14%;
+    margin-right: 14%;
+    font-size: 30px;
+    text-align: left;    
+  }
+  .p{
+    color: #000000;
+    font-family: LOUIS-GEORGE-CAFE;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 30px;
+    text-align: left;
+    text-decoration: none;
+  }
+  a{
+    color: #000000;
+    font-family: MUSTICA-SemiBold;
+    text-decoration: none;
+  }
+  .credits{
+    width: 10%;
+    margin: 4.5%;
+  }
+  .contrast{
+    background-color: #000000;
+    color:white;
+    margin-top: 0%;
+    margin-bottom: 0%; 
+  }
+  table{
+    background-color: rgb(232, 232, 232); 
+    border-radius: 15px;
+    border-width: 10px;
+    border-color:black ;
+  }
